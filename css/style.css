@@ -1,0 +1,27 @@
+/* base classes */
+.d-inline-block {
+    display: inline-block;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+/* end base classes */
+
+/* header */
+.logo img {
+    width: 100px;
+}
+
+/* end header */
+
+.clear {
+    clear: both;
+}
+
+.wraper-p {
+    width: 900px;
+}
