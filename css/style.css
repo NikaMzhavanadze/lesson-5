@@ -1,27 +1,54 @@
-/* base classes */
-.d-inline-block {
-    display: inline-block;
+.index-main{
+    background-color: #22B573;
+    margin: 40px;
 }
-.float-left{
-    float: left;
-}
-.float-right{
+.index-logo{
+    width: 201px;
     float: right;
 }
-
-/* end base classes */
-
-/* header */
-.logo img {
-    width: 100px;
+.display-ib{
+    display: inline-block;
+    font-size: 48px;
+    margin-right: 45px;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-/* end header */
-
-.clear {
+.clearfix::after{
+    content: "";
+    display: block;
     clear: both;
 }
 
-.wraper-p {
-    width: 900px;
+section{
+    background-color: #FCEE21;
+    width: 617px;
+    padding: 36px;
+}
+.section-left{
+    float: left;
+}
+.section-right{
+    float: right;
+    color: #006837;
+}
+article{
+    width: 1252px;
+    margin: 0 auto;
+    padding-top: 63px;
+    padding-bottom: 80px;
+    text-transform: uppercase
+}
+.section-left > img{
+    float: right;
+    padding-left: 22px;
+}
+.section-right > img{
+    float: left;
+    padding-right: 22px;
 }
